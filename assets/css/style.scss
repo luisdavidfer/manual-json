@@ -10,6 +10,12 @@ header img{
     width: 960px;
 }
 .wrapper section{
-    width: 650px;
     text-align: justify;
+}
+
+@media (min-width: 1050px){
+    .wrapper section{
+        width: 650px;
+    }
+        
 }
