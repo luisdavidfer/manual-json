@@ -30,7 +30,7 @@ Hasta finales de la década de los 90, XML o lenguaje de marcas extensible era e
 
 JSON son las siglas de JavaScript Object Notation, que no es más que un estandar de transmisión y almacenamiento de datos basado en texto plano, esto significa que la información será almacenada en ficheros de texto plano, en lugar de información binaria, con la extensión *.json*.
 
-JSON es un estandar ligero que se caracteriza por reducir el tamaño de los archivos y el volumen de datos que es necesario transmitir frente a otros estándares como XML, es por ello que desde su aparición su popularidad y uso mantiene un constante crecimiento.
+JSON es un estandar ligero que se caracteriza por el reducido tamaño de los archivos lo que mejora la velocidad de transmisión frente a otros estándares como XML, es por ello que desde su aparición su popularidad y uso mantiene un constante crecimiento.
 
 Un archivo JSON contiene una cadena de texto, que sigue una estructura y una sintaxis, que es capaz de ser interpretado por un analizador sintáctico o *parser*\* e incorporar la información contenida al lenguaje de programación deseado. A este proceso se le denomina *parsing*, mientras que el proceso contrario, que consiste en almacenar un objeto o una estructura de datos en una cadena de texto para ser transmitida o almacenada, se conoce como *stringification*.
 
@@ -77,7 +77,7 @@ Sin embargo, JSON también tiene carencias, como pueden ser:
 * Poco extensibilidad, ya que sólo puede almacenar texto y números.
 * No permite almacenar metadatos, como sí que es posible hacer en XML mediante atributos.
 
-Como conclusión podemos decir que ninguno es mejor que el otro, mientras que JSON es más ligero y eficiente, XML es más potente y flexible al ser un lenguaje de marcado extensible cuya estructura podemos definir, por lo que la elección de usar una tecnología u otra se basará en los requisitos del proyecto en el que estemos trabajando.
+Como conclusión podemos decir que ninguno es mejor que el otro, mientras que JSON es más ligero y eficiente, XML es más potente y flexible al ser un lenguaje de marcado extensible cuya estructura podemos definir, por lo que la elección de usar una tecnología u otra se basará en nuestras necesidades.
 
 ## Objetos en JavaScript
 
@@ -115,11 +115,11 @@ Los números pueden ser enteros, en coma flotante, positivos sin signo, negativo
 
 Los objetos JSON están formados por parejas clave-valor, siendo la clave una cadena de texto limitada por dobles comillas y valor cualquiera de los tipos de datos del estandar.
 
-![Objects](assets/img/Object.jpg)
+![Objects](assets/img/object.jpg)
 
 Un array en JSON se forma por valores delimitados entre corcheches y separados entre ellos por comas.
 
-![Arrays](assets/img/Array.jpg)
+![Arrays](assets/img/array.jpg)
 
 ## Lenguajes soportados
 
@@ -357,8 +357,11 @@ Un array en JSON se forma por valores delimitados entre corcheches y separados e
 ## Referencias
 
 [Introducción a JSON. Documentación oficial.](https://www.json.org/json-es.html)
+
 [JavaScript JSON. W3School.](https://www.w3schools.com/js/js_json_intro.asp)
+
 [Trabajando con JSON. MDN Web Docs.](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON)
+
 [Objeto JSON. MDN Web Docs.](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
 
 ## Licencia
